@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="SuppliersModule.Views.ListSuppliers"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <TextBlock
+            Text="Listing all suppliers"
+            FontSize="20"
+            Foreground="red"
+            />
+    </Grid>
+</UserControl>
